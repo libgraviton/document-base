@@ -1,0 +1,20 @@
+{
+    "name": "graviton/document-base",
+    "description": "some simple base runtime things for services that use graviton generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "List of contributors",
+            "homepage": "https://github.com/libgraviton/analytics-mongoshell-converter/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Graviton\\DocumentBase\\": "src/"
+        }
+    }
+}
